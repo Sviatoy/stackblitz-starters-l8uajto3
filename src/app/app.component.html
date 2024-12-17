@@ -1,0 +1,22 @@
+
+
+<main>
+  <!-- create header sidebar footer layout  -->
+  <app-header class='section'>
+    <app-counter-button></app-counter-button>
+  </app-header>
+  <div class="flex-row">
+    <app-side-nav class='section'>
+      <app-counter-button></app-counter-button>
+    </app-side-nav>
+    <app-content class='section'>
+        <app-counter-button></app-counter-button>
+        <app-counter-button></app-counter-button>
+    </app-content>
+  </div>
+  <app-footer class='section'>
+    <app-counter-button></app-counter-button>
+  </app-footer>
+
+</main>
+<router-outlet />
